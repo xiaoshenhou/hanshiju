@@ -1,0 +1,35 @@
+body,html{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+body{
+  overflow-x: hidden;
+  font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  color: #3c3c3c;
+  font-family: PingFangSC-Medium;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #171a1d;
+}
+li{
+  list-style: none;
+}
+html {
+  width: 100%; /* 设置容器宽度 */ /* 设置容器高度 */
+  /* overflow: auto;  */
+ 
+  /* 隐藏默认的滚动条样式 */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+html::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+
+

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4427736 */
+  src: url('iconfont.woff2?t=1708653296299') format('woff2'),
+       url('iconfont.woff?t=1708653296299') format('woff'),
+       url('iconfont.ttf?t=1708653296299') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoutibao:before {
+  content: "\e6bc";
+}
+
+.icon-shangcheng:before {
+  content: "\e603";
+}
+
+.icon-baobeishoucang:before {
+  content: "\e6ca";
+}
+
+.icon-nvzhuang:before {
+  content: "\e60f";
+}
+
+.icon-jiazhuang:before {
+  content: "\e689";
+}
+
+.icon-chongwuyiliao:before {
+  content: "\e616";
+}
+
+.icon-shouji:before {
+  content: "\e6b7";
+}
+
+.icon-a-meizhuangxihu3x:before {
+  content: "\e606";
+}
+
+.icon-a-shipinshengxian3x:before {
+  content: "\e607";
+}
+
+.icon-a-nanzhuang3x:before {
+  content: "\e608";
+}
+
+.icon-nvxie:before {
+  content: "\e680";
+}
+
+.icon-weixin:before {
+  content: "\e66a";
+}
+
+.icon-zhifubaozhifu:before {
+  content: "\e605";
+}
+
+.icon-github-fill:before {
+  content: "\e885";
+}
+
+.icon-guge:before {
+  content: "\e664";
+}
+
