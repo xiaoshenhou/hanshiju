@@ -634,7 +634,6 @@ const {maxHight} = toRefs(props)
   }
   defineExpose({
     initActive(){
-      console.log('我修改了子的值')
       active.value = 0
     }
   })

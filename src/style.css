@@ -31,5 +31,8 @@ html {
 html::-webkit-scrollbar {
   display: none; /* Chrome, Safari, and Opera */
 }
+*{
+  box-sizing: border-box;
+}
 
 

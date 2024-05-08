@@ -1,8 +1,8 @@
 <template>
     <div class="banner" :style="`width:${changeWidth}px;height:${height}px`" @mouseenter="yiRu" @mouseleave="yiChu">
         <div class="imgBox" ref="imgBox" :style="`left:${left}px`" :class="{transition:(num !== 0||!flag)&&resizeFlag}">
-            <a :class="{noclick:noclick}" :href="item.a" v-for="(item,index) in bannerImg" :key="index"><img :src="item.img" alt="" :style="`width:${changeWidth}px;height:${height}px`"></a>
-            <a :class="{noclick:noclick}" :href="bannerImg[0].a"><img :src="bannerImg[0].img" alt="" :style="`width:${changeWidth}px;height:${height}px`"></a>
+            <a :class="{noclick:noclick}" :href="item.a" v-for="(item,index) in bannerImg" :key="index"><img :src="item.img" alt="" ></a>
+            <a :class="{noclick:noclick}" :href="bannerImg[0].a"><img :src="bannerImg[0].img" alt=""></a>
         </div>
         <ul class="promo">
             <li v-for="(item,index) in bannerImg" :class="{active:index === num||index==0&&num==bannerImg.length}" :key="index" @click="promoClick(index)"><div class="myPromo">{{item }}</div></li>
@@ -101,8 +101,6 @@ window.onresize = (e)=>{
         resizeFlag.value = false
         if(xiankuan.value){
             changeWidth.value = e.target.innerWidth<xiankuan.value?xiankuan.value:e.target.innerWidth
-        console.log(e.target.innerWidth,xiankuan.value,changeWidth.value)
-
         }else{
             changeWidth.value = e.target.innerWidth
         }

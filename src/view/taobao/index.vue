@@ -537,6 +537,7 @@ onMounted(()=>{
                     width: 100%;
                     height: 36px;
                     border: 0;
+                    outline: none;
                 }
             }
             .inputwrapRight{
@@ -710,9 +711,17 @@ onMounted(()=>{
         .main-inner{
             margin-top: 10px;
             display: flex;
-            .banner{
+            :deep(.banner){
                 width: 564px;
                 height: 315px;
+                a{
+                    width: 564px;
+                    height: 315px;
+                    img{
+                        width: 100%;
+                        height:100%;
+                    }
+                }
             }
             .userBox{
                 width: 100%;

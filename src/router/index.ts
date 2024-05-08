@@ -70,4 +70,4 @@ const router =  createRouter({
 //     }
    
 // })
-export default router
+export {router,constantRoutes}
